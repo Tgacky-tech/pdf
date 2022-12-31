@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>アンケートフォーム</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/
+	bootstrap/3.3.5/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/
+	bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <span class="glyphicon glyhicon-triangle-right"></span>
+          生徒旅客運賃割引証
+        </div>
+        <form action="/result" method="post">
+          <div class="panel-body">
+            <div class="form-group">
+              <label for="date">今日の日付</label><br>
+              <input type="date" name="date">
+              </div>
+            <div class="form-group">
+              <label for="name">氏名</label><br>
+              <input type="text" name="name" placeholder="ここに名前を入力" required>
+            </div>
+            <div class="form-group">
+              <label for="content">年</label><br>
+              <input type="content" name="nenn" placeholder="ここに学年を入力" required>
+            </div>
+            <div class="form-group">
+              <label for="content">組</label><br>
+              <input type="content" name="kumi" placeholder="ここにクラスを入力" required>
+            </div>
+            <div class="form-group">
+              <label for="content">番号</label><br>
+              <input type="content" name="banngou" placeholder="ここに番号を入力" required>
+            </div>
+            <div class="form-group">
+              <label for="content">身分証明書番号</label><br>
+              <input type="content" name="identify" placeholder="ここに入力">
+            </div>
+            <div class="form-group">
+              <label for="content">年齢</label><br>
+              <input type="number" name="age" placeholder="年齢">
+            </div>
+            <div class="form-group">
+              <label for="content">旅行先</label><br>
+              <input type="content" name="place" placeholder="ここに旅行先を入力">
+            </div>
+            <div class="form-group">
+              <label for="number">出発日</label><br>
+              <input type="date" name="leave">
+            </div>
+            <div class="form-group">
+              <label for="number">帰宅日</label><br>
+              <input type="date" name="come">
+            </div>
+            <div class="form-group">
+              <label for="content">乗車区間</label><br>
+              <textarea rows = "4" cols="40" name="bound"> </textarea>
+            </div>
+            <div class="form-group">
+              <label for="grade">目的</label><br>
+              <select name="purpose">
+                <option value="課外活動">課外活動</option>
+                <option value="試験">試験</option>
+                <option value="帰省">帰省</option>
+                <option value="見学">見学</option>
+                <option value="その他">その他</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="number">希望枚数</label><br>
+              <input type="number" name="piece" placeholder="ここに希望枚数を入力">
+            </div>
+            <input type="submit" class="btn btn-primary pull-left" value="出力"></input>
+            <input type="reset" class="btn btn-warning pull-left"></input>
+            </div>
+        </form>
+      </div>
+    </div>
+</body>
+
+</html>
