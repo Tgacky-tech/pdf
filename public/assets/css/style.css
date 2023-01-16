@@ -1,0 +1,149 @@
+.header{
+    height: 8vh;
+    font-size: 2rem;
+    display: flex;
+    padding: 2%rem;
+    background-color: #FFFFFF;
+}
+h3{
+    font-size: 2em;
+    padding-left: 5px;
+    border-left: 1vh solid rgb(12, 140, 140);
+    margin-top:0;
+}
+.aikon{
+    width: 70%;
+}
+.header_right{
+    width: 30%;
+}
+.main-center{
+    padding:8rem;
+    width: 70%;
+    margin: 0 auto;
+    background-color:#FFFFFF;
+    height:89vh;
+    
+}
+.main{
+    border-top:1rem solid rgb(12, 140, 140);
+    background-color:#FFFFCC;
+    height:89vh;
+}
+.button {
+    background: #ccffff;
+    cursor: pointer;
+    font-size: 20pt;
+    padding: 16px;
+}
+.button:hover {
+    opacity: 0.7;
+}
+.content0 {
+    display: none;
+    margin:5rem;
+}
+#state0:checked ~ .form-right .content0 {
+    display: block;
+}
+
+.content1 {
+    display: none;
+    margin-top:5rem;
+    margin-left:5rem;
+}
+#state1:checked ~ .form-right .content1 {
+    display: block;
+}
+.content2 {
+    display: none;
+   
+}
+#state2:checked ~ .form-right .content2 {
+    display: block;
+}
+.content3 {
+    display: none;
+   
+}
+#state3:checked ~ .form-right .content3 {
+    display: block;
+}
+.content4 {
+    display: none;
+   
+}
+#state4:checked ~ .form-right .content4 {
+    display: block;
+}
+.content5 {
+    display: none;
+   
+}
+#state5:checked ~  .form-right .content5 {
+    display: block;
+}
+.content6 {
+    display: none;
+   
+}
+#state6:checked ~ .form-right .content6 {
+    display: block;
+}
+.content7 {
+    display: none;
+   
+}
+#state7:checked ~ .form-right .content7 {
+    display: block;
+}
+.content8 {
+    display: none;
+   
+}
+#state8:checked ~ .form-right .content8 {
+    display: block;
+}
+.content9 {
+    display: none;
+   
+}
+#state9:checked ~ .form-right .content9 {
+    display: block;
+}
+
+.radio-label{
+    max-width: 100%;
+    font-weight: 700;
+    display: block;
+    margin-bottom:0;
+    height: 10vh;
+    background: #ccffff;
+}
+.form-right{
+    height:90vh;
+    background: #ffffff;
+    width:140vh;
+}
+.form-left{
+   width:60vh;
+}
+.radio-label-none{
+    height:0;
+    display: block;
+    margin-bottom:0;
+}
+.form-main{
+    display:flex;
+}
+.form-group-main{
+    display:flex;
+}
+.form-group-left{
+    width: 40%;
+}
+.form-group-right{
+    width: 40%;
+}
+.panel-body{
+}
